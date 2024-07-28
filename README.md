@@ -4,7 +4,7 @@
 In this exercise you will customize your own landing page using the beautiful Landy template. Landy template is built on top of [Create React App](https://create-react-app.dev/).
 
 ## Exercise
-1. Change colors
+1. [Change colors](https://github.com/smolthing/landing-page-landy/commit/8dee3f7bb0b5fe8b7b7d3ea6715ee6d24bf1ba8a)
 1. Move Elements
 1. Adjust Transitions
 1. Change Hover States
@@ -30,8 +30,8 @@ npm start
 ### Before
 ![](./images/landy.png)
 ### After
-![](./images/landy.png)
-by [smolthing](smolthing.github.io)
+![](./images/landy-change-color.png)
+by [smolthing](https://smolthing.github.io)
 
 ## Contribute
 Create a PR to add an image of your homework. Example PR.
