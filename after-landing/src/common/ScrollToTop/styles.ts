@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from '../../styles/colors';
 
 export const ScrollUpContainer = styled("div")<any>`
   padding: 10px;
@@ -7,7 +8,7 @@ export const ScrollUpContainer = styled("div")<any>`
   bottom: 30px;
   z-index: 10;
   cursor: pointer;
-  background: rgb(241, 242, 243);
+  background: ${theme.background};
   text-align: center;
   align-items: center;
   border-radius: 4px;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from '../../styles/colors';
 
 export const ContactContainer = styled("div")`
   padding: 5rem 0;
@@ -21,7 +22,7 @@ export const FormGroup = styled("form")`
 export const Span = styled("span")<any>`
   display: block;
   font-weight: 600;
-  color: rgb(255, 130, 92);
+  color: ${theme.errorText};
   height: 0.775rem;
   padding: 0 0.675rem;
 `;

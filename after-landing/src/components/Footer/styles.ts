@@ -1,15 +1,16 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { theme } from '../../styles/colors';
 
 export const FooterSection = styled("footer")`
-  background: rgb(241, 242, 243);
+  background: ${theme.background};
   padding: 2.5rem 0;
 `;
 
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: ${theme.primary};
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -17,6 +18,7 @@ export const Title = styled("h4")`
 `;
 
 export const NavLink = styled(Link)`
+  color: ${theme.header};
   display: block;
   font-size: 1rem;
   margin-bottom: 0.625rem;
@@ -25,12 +27,12 @@ export const NavLink = styled(Link)`
   &:hover,
   &:active,
   &:focus {
-    color: #15418e;
+    color: ${theme.headerActive};
   }
 `;
 
 export const Extra = styled("section")`
-  background: rgb(241, 242, 243);
+  background: ${theme.background};
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -44,14 +46,14 @@ export const LogoContainer = styled("div")`
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: ${theme.primary};
   font-size: 14px;
   width: 70%;
 `;
 
 export const Large = styled(Link)<any>`
   font-size: 16px;
-  color: #000;
+  color: ${theme.link};
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-transform: capitalize;
@@ -62,23 +64,23 @@ export const Large = styled(Link)<any>`
   max-width: max-content;
 
   &:hover {
-    color: rgb(255, 130, 92);
+    color: ${theme.linkActive};
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }
 `;
 
 export const Chat = styled("p")`
-  color: #18216d;
+  color: ${theme.primary};
   max-width: fit-content;
-  border-bottom: 1px solid #18216d;
+  border-bottom: 1px solid ${theme.primary};
   cursor: pointer;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    border-bottom: 1px solid rgb(255, 130, 92);
-    color: rgb(255, 130, 92);
+    border-bottom: 1px solid ${theme.linkActive};
+    color: ${theme.linkActive};
   }
 `;
 
@@ -129,7 +131,7 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: ${theme.primary};
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -139,7 +141,7 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: ${theme.primary};
   display: block;
   margin-bottom: 2rem;
   font-family: "Motiva Sans Bold", serif;
