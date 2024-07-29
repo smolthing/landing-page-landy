@@ -2,7 +2,8 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { ContentBlockProps } from "../types";
-import { Fade } from "react-awesome-reveal";
+import { Reveal } from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
 import {
   LeftContentSection,
   Content,
@@ -11,6 +12,15 @@ import {
   MinTitle,
   MinPara,
 } from "./styles";
+
+const slide = keyframes`
+  from {
+    transform: translate3d(-100px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+`;
 
 const LeftContentBlock = ({
   icon,
@@ -22,7 +32,7 @@ const LeftContentBlock = ({
 }: ContentBlockProps) => {
   return (
     <LeftContentSection>
-      <Fade direction="left">
+      <Reveal keyframes={slide} duration={1000} triggerOnce={true}>
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
@@ -48,7 +58,7 @@ const LeftContentBlock = ({
             </ContentWrapper>
           </Col>
         </Row>
-      </Fade>
+      </Reveal>
     </LeftContentSection>
   );
 };
