@@ -22,7 +22,7 @@ export const NavLink = styled("div")`
 `;
 
 export const CustomNavLink = styled("div")`
-  width: 203px;
+  width: 200px;
   display: inline-block;
 
   @media only screen and (max-width: 411px) {
@@ -71,7 +71,8 @@ export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
   color: ${theme.header};
   transition: color 0.2s ease-in;
-  margin: 0.5rem 2rem;
+  margin: 0.5rem 1.5rem;
+  text-align: center;
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;

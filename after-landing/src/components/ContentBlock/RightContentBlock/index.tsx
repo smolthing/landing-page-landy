@@ -37,6 +37,17 @@ const RightBlock = ({
       behavior: "smooth",
     });
   };
+
+  const handleButtonClick = (item: any) => {
+    if (item.link) {
+      window.open(item.link, "_blank");
+      return;
+    }
+    if (item.scrollTo) {
+      scrollTo(item.scrollTo);
+    }
+  };
+
   return (
     <RightBlockContainer>
       <Reveal keyframes={fade} duration={1500} triggerOnce={true}>
@@ -53,7 +64,7 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => handleButtonClick(item)}
                       >
                         {t(item.title)}
                       </Button>

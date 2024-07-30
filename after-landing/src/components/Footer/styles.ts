@@ -5,6 +5,7 @@ import { theme } from '../../styles/colors';
 export const FooterSection = styled("footer")`
   background: ${theme.background};
   padding: 2.5rem 0;
+  height: 400px;r
 `;
 
 export const Title = styled("h4")`
@@ -51,7 +52,7 @@ export const Para = styled("div")`
   width: 70%;
 `;
 
-export const Large = styled(Link)<any>`
+export const Large = styled("a")<any>`
   font-size: 16px;
   color: ${theme.link};
   cursor: pointer;
@@ -70,12 +71,13 @@ export const Large = styled(Link)<any>`
   }
 `;
 
-export const Chat = styled("p")`
+export const Chat = styled("a")`
   color: ${theme.primary};
   max-width: fit-content;
   border-bottom: 1px solid ${theme.primary};
   cursor: pointer;
-  margin-top: 1rem;
+  display: block;
+  margin-top: 0.5rem;
   transition: all 0.3s ease-in-out;
 
   &:hover {
@@ -139,11 +141,11 @@ export const Language = styled("h4")`
 `;
 
 export const Label = styled("label")`
-  font-size: 22px;
+  font-size: 15px;
   text-transform: capitalize;
   color: ${theme.primary};
   display: block;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
   font-family: "Motiva Sans Bold", serif;
 
   @media screen and (max-width: 414px) {
@@ -168,5 +170,9 @@ export const LanguageSwitch = styled("div")<any>`
 export const LanguageSwitchContainer = styled("div")`
   display: flex;
   justify-content: space-between;
-  width: 85px;
+  width: 70px;
+`;
+
+export const SocialLinkStyle = styled("a")`
+  padding-right: 10px;
 `;

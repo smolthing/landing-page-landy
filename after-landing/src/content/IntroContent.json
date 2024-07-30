@@ -1,12 +1,14 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "landing-title",
+  "text": "landing-description",
   "button": [
     {
-      "title": "Explore"
+      "title": "Download",
+      "link": "https://github.com/smolthing/landing-page-landy/archive/refs/heads/main.zip"
     },
     {
       "title": "Learn more",
+      "link": "https://github.com/smolthing/landing-page-landy",
       "color": "#fff"
     }
   ]

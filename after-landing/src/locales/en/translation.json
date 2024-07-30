@@ -24,5 +24,7 @@
   "Name" : "Name",
   "Your Name": "Your Name",
   "Email" : "Email",
-  "Your Email": "Your Email"
+  "Your Email": "Your Email",
+  "landing-title": "Homework for today: Code a landing page with landy",
+  "landing-description": "Beautifuly crafted website using React.js and Styled Components."
 }
