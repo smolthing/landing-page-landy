@@ -24,7 +24,7 @@ export const Span = styled("span")<any>`
   font-weight: 600;
   color: ${theme.errorText};
   height: 0.775rem;
-  padding: 0 0.675rem;
+  margin-bottom: 10px;
 `;
 
 export const ButtonContainer = styled("div")`

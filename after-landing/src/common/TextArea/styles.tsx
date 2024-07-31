@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledContainer = styled("div")`
   display: inline-block;
   width: 100%;
-  padding: 10px 0;
+  padding-top: 10px;
   margin-bottom: -0.625rem;
 `;
 

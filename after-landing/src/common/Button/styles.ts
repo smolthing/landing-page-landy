@@ -3,7 +3,7 @@ import { theme } from '../../styles/colors';
 import { darken } from 'polished';
 
 const getPadding = (padding: string) => {
-  return padding ? padding : "10px 0px";
+  return padding ? padding : "10px 0";
 };
 
 const getBoxShadow = (color: string, themeButton: string) => {
@@ -21,7 +21,7 @@ export const StyledButton = styled("button")<any>`
   border-radius: 4px;
   padding: ${(p) => getPadding(p.padding)};
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 15px;
   max-width: 160px;
   transition: all 0.3s ease-in-out;
   box-shadow: ${(p) => getBoxShadow(p.color, theme.button)};
