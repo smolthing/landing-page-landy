@@ -11,6 +11,7 @@ import {
   ContentWrapper,
   ButtonWrapper,
 } from "./styles";
+import { theme } from '../../../styles/colors';
 
 const fade = keyframes`
   from {
@@ -62,8 +63,7 @@ const RightBlock = ({
                     return (
                       <Button
                         key={id}
-                        color={item.color}
-                        fixedWidth={true}
+                        color={item.isAlternateColor && theme.buttonAlternate}
                         onClick={() => handleButtonClick(item)}
                       >
                         {t(item.title)}

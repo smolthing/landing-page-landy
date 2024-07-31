@@ -82,10 +82,10 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: ${theme.header};
+        color: ${theme.nav};
 
         :hover {
-            color: ${theme.headerActive};
+            color: ${theme.navActive};
         }
     }
     

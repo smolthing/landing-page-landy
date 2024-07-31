@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
     white: '#FFFFFF',
     blue: '#70D6FF',
     pink: '#FF70A6',
@@ -12,11 +12,12 @@ const colors = {
 
 export const theme = {
     primary: colors.gray,
-    header: colors.orange,
-    headerActive: colors.pink,
+    nav: colors.orange,
+    navActive: colors.blue,
     button: colors.pink,
-    buttonActive: colors.orange,
+    buttonActive: colors.yellow,
     buttonText: colors.white,
+    buttonAlternate: colors.orange,
     text: colors.gray,
     background: colors.white,
     formBackground: colors.lightGray,

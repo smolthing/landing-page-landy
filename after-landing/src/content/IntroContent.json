@@ -9,7 +9,7 @@
     {
       "title": "Learn more",
       "link": "https://github.com/smolthing/landing-page-landy",
-      "color": "#fff"
+      "isAlternateColor": true
     }
   ]
 }

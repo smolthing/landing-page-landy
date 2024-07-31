@@ -3,11 +3,11 @@ import { ButtonProps } from "../types";
 
 export const Button = ({
   color,
-  fixedWidth,
+  padding,
   children,
   onClick,
 }: ButtonProps) => (
-  <StyledButton color={color} fixedWidth={fixedWidth} onClick={onClick}>
+  <StyledButton color={color} padding={padding} onClick={onClick}>
     {children}
   </StyledButton>
 );

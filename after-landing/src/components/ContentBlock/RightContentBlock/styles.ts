@@ -28,7 +28,7 @@ export const ContentWrapper = styled("div")`
 
 export const ButtonWrapper = styled("div")`
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   max-width: 100%;
 
   @media screen and (min-width: 1024px) {

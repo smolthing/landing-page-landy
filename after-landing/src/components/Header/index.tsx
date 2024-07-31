@@ -9,12 +9,13 @@ import {
   LogoContainer,
   Burger,
   NotHidden,
-  Menu,
   CustomNavLinkSmall,
   Label,
   Outline,
   Span,
+  MenuOutline,
 } from "./styles";
+import { theme } from '../../styles/colors';
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -47,7 +48,7 @@ const Header = ({ t }: any) => {
           <Span>{t("Product")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
-          <Button>{t("Contact")}</Button>
+          <Button color={theme.text} padding={"5px 0"}>{t("Contact")}</Button>
         </CustomNavLinkSmall>
       </>
     );
@@ -58,24 +59,19 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="logo.svg" width="60px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />
           </NotHidden>
           <Burger onClick={showDrawer}>
-            <Outline />
+            <MenuOutline />
           </Burger>
         </Row>
         <Drawer closable={false} visible={visible} onClose={onClose}>
-          <Col style={{ marginBottom: "2.5rem" }}>
+          <Col style={{ display: "flex", justifyContent: "end" }}>
             <Label onClick={onClose}>
-              <Col span={12}>
-                <Menu>Menu</Menu>
-              </Col>
-              <Col span={12}>
-                <Outline />
-              </Col>
+              <Outline />
             </Label>
           </Col>
           <MenuItem />

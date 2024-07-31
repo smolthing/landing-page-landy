@@ -5,7 +5,7 @@ import { theme } from '../../styles/colors';
 export const FooterSection = styled("footer")`
   background: ${theme.background};
   padding: 2.5rem 0;
-  height: 400px;r
+  height: 300px;
 `;
 
 export const Title = styled("h4")`
@@ -19,7 +19,7 @@ export const Title = styled("h4")`
 `;
 
 export const NavLink = styled(Link)`
-  color: ${theme.header};
+  color: ${theme.nav};
   display: block;
   font-size: 1rem;
   margin-bottom: 0.625rem;
@@ -28,7 +28,7 @@ export const NavLink = styled(Link)`
   &:hover,
   &:active,
   &:focus {
-    color: ${theme.headerActive};
+    color: ${theme.navActive};
   }
 `;
 
