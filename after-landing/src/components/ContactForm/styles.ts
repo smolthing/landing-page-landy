@@ -29,6 +29,7 @@ export const Span = styled("span")<any>`
 
 export const ButtonContainer = styled("div")`
   position: relative;
+  margin-top: 10px;
 
   @media only screen and (max-width: 414px) {
     padding-top: 0.75rem;

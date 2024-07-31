@@ -15,7 +15,7 @@ import {
   Span,
   MenuOutline,
 } from "./styles";
-import { theme } from '../../styles/colors';
+import { colors } from '../../styles/colors';
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -48,7 +48,7 @@ const Header = ({ t }: any) => {
           <Span>{t("Product")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
-          <Button color={theme.text} padding={"5px 0"}>{t("Contact")}</Button>
+          <Button color={colors.gray} padding={"5px 0"}>{t("Contact")}</Button>
         </CustomNavLinkSmall>
       </>
     );
