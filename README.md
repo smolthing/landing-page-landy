@@ -8,7 +8,7 @@ In this exercise you will customize your own landing page using the beautiful La
 1. [Adjust Transitions](https://github.com/smolthing/landing-page-landy/commit/adf430015e4110db7bd1881c62fd4853ae9dbc18)
 1. [Move Objects](https://github.com/smolthing/landing-page-landy/commit/859ec5c9bc6ec9cc8cf1ae2c6ce89440c311c19d)
 1. [Change Hover States](https://github.com/smolthing/landing-page-landy/commit/6db799f8a4e08b5c53ea2b91fe678f5101dcea5f)
-1. Customize Shadows
+1. [Customize Shadows](https://github.com/smolthing/landing-page-landy/commit/d44142a3129bc1d96c769e4ffbf1c78c21b97ff4)
 
 ## Getting Started
 ### `before-landing` folder
