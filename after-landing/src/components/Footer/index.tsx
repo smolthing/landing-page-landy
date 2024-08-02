@@ -1,6 +1,6 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-import { SvgIcon } from "../../common/SvgIcon";
+import { Image } from "../../common/Image";
 import Container from "../../common/Container";
 
 import i18n from "i18next";
@@ -36,7 +36,7 @@ const Footer = ({ t }: any) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <Image src={src} width="25px" height="25px" />
       </SocialLinkStyle>
     );
   };
@@ -70,7 +70,7 @@ const Footer = ({ t }: any) => {
                 <Label htmlFor="select-lang">{t("Language")}</Label>
                 <LanguageSwitchContainer>
                   <LanguageSwitch onClick={() => handleChange("en")}>
-                    <SvgIcon
+                    <Image
                       src="united-states.svg"
                       aria-label="homepage"
                       width="30px"
@@ -78,7 +78,7 @@ const Footer = ({ t }: any) => {
                     />
                   </LanguageSwitch>
                   <LanguageSwitch onClick={() => handleChange("es")}>
-                    <SvgIcon
+                    <Image
                       src="spain.svg"
                       aria-label="homepage"
                       width="30px"

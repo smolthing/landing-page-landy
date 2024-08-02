@@ -1,6 +1,6 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-import { SvgIcon } from "../../../common/SvgIcon";
+import { Image } from "../../../common/Image";
 import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
 import { Reveal } from "react-awesome-reveal";
@@ -74,7 +74,7 @@ const RightBlock = ({
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            <Image src={icon} width="100%" height="100%" />
           </Col>
         </Row>
       </Reveal>
