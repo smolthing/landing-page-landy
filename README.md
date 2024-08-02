@@ -1,7 +1,9 @@
 # Build your own landing page
 
 ## Goal
-In this exercise you will customize your own landing page using the beautiful Landy template. Landy template is built on top of [Create React App](https://create-react-app.dev/).
+In this exercise you will customize your own landing page using the beautiful [Landy template](https://github.com/issaafalkattan/react-landing-page-template-2021). Landy template is built on top of [Create React App](https://create-react-app.dev/).
+
+[Demo Website](https://smolthing.github.io/landing-page-landy/)
 
 ## Exercise
 1. [Change Colors](https://github.com/smolthing/landing-page-landy/commit/8dee3f7bb0b5fe8b7b7d3ea6715ee6d24bf1ba8a)
@@ -39,7 +41,7 @@ npm start
 by [Landy](https://landy-web.netlify.app/)
 ### After
 ![](./images/after-landy.gif)
-by [smolthing](https://www.youtube.com/@smolthing)
+by [smolthing](https://smolthing.github.io/landing-page-landy)
 
 ## Contribute
 Create a PR to add a gif of your homework.
