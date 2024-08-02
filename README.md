@@ -14,6 +14,8 @@ In this exercise you will customize your own landing page using the beautiful La
  - Use `cursor: pointer` to indicate clickable object.
 5. [Customize Shadows](https://github.com/smolthing/landing-page-landy/commit/d44142a3129bc1d96c769e4ffbf1c78c21b97ff4)
  - Use solid shadow with darken method from [polished](https://polished.js.org/docs/) library.
+6. [Deploy Website](https://github.com/smolthing/landing-page-landy/commit/d340c2dde8bde93677603433168bed2de62b8433)
+ - Deploy react app using github pages from this awesome [tutorial](https://github.com/gitname/react-gh-pages).
 
 ## Getting Started
 ### `before-landing` folder
