@@ -107,4 +107,41 @@ export const Styles = createGlobalStyle`
     .ant-drawer-content-wrapper {
         width: 300px !important;
     }
+
+    .scroller {
+        display: grid;
+        & > * {
+          grid-area: 1 / 1;
+          width: 100%;
+        }
+        .mask {
+          z-index: 2;
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+    .mask {
+        mix-blend-mode: lighten;
+        background: white;
+    }
+
+    path {
+        stroke-width: 120;
+        stroke-dasharray: 5700;
+        stroke-dashoffset: 5700;
+        view-timeline-name: --scribble-path;
+        view-timeline-axis: block;
+        animation: linear draw both;
+        animation-timeline: --scribble-path;
+        animation-range: entry 0% cover 50%;
+    }
+
+    @keyframes draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+    }
 `;
