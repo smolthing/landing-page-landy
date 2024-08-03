@@ -17,7 +17,7 @@ In this exercise you will customize your own landing page using the beautiful [L
 5. [Customize Shadows](https://github.com/smolthing/landing-page-landy/commit/d44142a3129bc1d96c769e4ffbf1c78c21b97ff4)
  - Use solid shadow with darken method from [polished](https://polished.js.org/docs/) library.
 6. [Change images](https://github.com/smolthing/landing-page-landy/commit/c25f777bee4445c4c7cddc47d890729fd0a233f7)
- - Replace images with any format.
+ - Replace images with any format. Download free images from [unsplash](https://unsplash.com).
 7. [Add scroll transition to images](https://github.com/smolthing/landing-page-landy/commit/2eb7cb558140cae9445d245967a76a43b82489ad)
  - Add scroll transition using css from [wesbos's tutorial](https://www.tiktok.com/@wesbos/video/7393373169416965382).
 8. [Deploy Website](https://github.com/smolthing/landing-page-landy/commit/d340c2dde8bde93677603433168bed2de62b8433)
