@@ -18,7 +18,9 @@ In this exercise you will customize your own landing page using the beautiful [L
  - Use solid shadow with darken method from [polished](https://polished.js.org/docs/) library.
 6. [Change images](https://github.com/smolthing/landing-page-landy/commit/c25f777bee4445c4c7cddc47d890729fd0a233f7)
  - Replace images with any format.
-7. [Deploy Website](https://github.com/smolthing/landing-page-landy/commit/d340c2dde8bde93677603433168bed2de62b8433)
+7. [Add scroll transition to images](https://github.com/smolthing/landing-page-landy/commit/2eb7cb558140cae9445d245967a76a43b82489ad)
+ - Add scroll transition using css.
+8. [Deploy Website](https://github.com/smolthing/landing-page-landy/commit/d340c2dde8bde93677603433168bed2de62b8433)
  - Deploy react app using github pages from this awesome [tutorial](https://github.com/gitname/react-gh-pages).
 
 ## Getting Started
@@ -29,13 +31,14 @@ This folder contains the initial template and all the necessary files that you w
 This folder contains the completed solution, which you can refer to if needed.
 
 ### Running the app
-1. Go into `before-landing` folder and run the app. App runs on http://localhost:3000.
+1. Go into `before-landing` folder and run the app. App runs on http://localhost:3000. Run commands in terminal:
 ```
 cd before-landing
 npm start
 ```
 2. Make the necessary changes as per the exercise tasks.
 3. Compare your work with the files in the `after` folder if you need any guidance or reference.
+4. Deploy your website by running the command `npm run deploy`.
 
 ## Demo
 ### Before
